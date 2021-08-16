@@ -1,4 +1,4 @@
-class SHA-256:
+class SHA256:
     ks = [
         0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5,
         0x3956c25b, 0x59f111f1, 0x923f82a4, 0xab1c5ed5,
@@ -43,7 +43,7 @@ class SHA-256:
 
     @staticmethod
     def ror(x, y):
-        return ((x >> y) | (x << (32 - y))) & Sha256.M32
+        return ((x >> y) | (x << (32 - y))) & SHA256.M32
 
     @staticmethod
     def maj(x, y, z):
@@ -111,11 +111,11 @@ def test():
     import secrets, hashlib, random
     for itest in range(500):
         data = secrets.token_bytes(random.randrange(257))
-        a, b = hashlib.sha256(data).hexdigest(), Sha256(data).hexdigest()
+        a, b = hashlib.sha256(data).hexdigest(), SHA256(data).hexdigest()
         print(a,' -- ',b)
         assert a == b, (a, b)
     for itest in range(500):
-        a, b = hashlib.sha256(), Sha256()
+        a, b = hashlib.sha256(), SHA256()
         for j in range(random.randrange(10)):
             data = secrets.token_bytes(random.randrange(129))
             a.update(data)
@@ -129,4 +129,4 @@ if __name__ == '__main__':
     #test()
     for i in range(10):
       dat=str('A') + str(i)
-      print(dat,'=',Sha256(dat.encode('utf-8')).hexdigest())
+      print(dat,'=',SHA256(dat.encode('utf-8')).hexdigest())
