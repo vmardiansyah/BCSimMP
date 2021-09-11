@@ -1,6 +1,6 @@
 # BCSimMP
 
-BCSimMP (Blockchain Simulator with Multi Process)
+BCSimMP (Blockchain Simulator with Mining Pool)
 This simulator shows the difference between solo miner and pool miner while generating a block in Blockchain Network.
 The Proof-of-Work (PoW) consensus algorithm is used in this simulator, and the Target to solve is to found some prefix-leading zero as difficulty levels.
 
