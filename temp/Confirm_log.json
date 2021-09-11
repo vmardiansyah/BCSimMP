@@ -1,1 +1,18 @@
-
+{
+    "0001cdd15f0f4ca41614380e5834cef2af9693ee77ac9c37c92648bff6e90440": {
+        "Miner Winner": "Miner_worker-1",
+        "Confirmation": 5
+    },
+    "000fecaa875b7150dd138da28eb24ec1812a43c54906b503b6e1d2542bfb9da1": {
+        "Miner Winner": "Miner_worker-1",
+        "Confirmation": 5
+    },
+    "000052952a4afc6e8dd21e3597a7787122fbfb2b35184116791328cb4ccbe6d0": {
+        "Miner Winner": "Miner_worker-2",
+        "Confirmation": 5
+    },
+    "00080823876ed56539d8d110294a4d093ec6559cec7f96a17c03a335270dea30": {
+        "Miner Winner": "Miner_worker-5",
+        "Confirmation": 5
+    }
+}

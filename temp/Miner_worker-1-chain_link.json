@@ -1,0 +1,178 @@
+{
+    "0": {
+        "Transactions": [
+            "Genesis Block transaction contain the list of miners",
+            "Miner_worker-1",
+            "Miner_worker-2",
+            "Miner_worker-3",
+            "Miner_worker-4",
+            "Miner_worker-5"
+        ],
+        "Block Number": 0,
+        "Nonce": 0,
+        "Generator ID": "The Genesis Block",
+        "Previous Hash": 0,
+        "Timestamp": "Sat Sep 11 22:52:28 2021",
+        "Block Time Generation": {
+            "Using Pool Miner (seconds)": 0.0,
+            "Using Solo Miner (seconds)": 0.0
+        },
+        "Hash Value": "7371f30caa457d5a0058d6ff8b255cee11c86d0988e48ec4f2509507a0b359d6"
+    },
+    "1": {
+        "Transactions": [
+            [
+                "Agus",
+                "Chandra",
+                "Agus sends $ 24.00 to Chandra"
+            ],
+            [
+                "Agus",
+                "Budi",
+                "Agus sends $ 5.00 to Budi"
+            ],
+            [
+                "Budi",
+                "Chandra",
+                "Budi sends $ 0.00 to Chandra"
+            ],
+            [
+                "Budi",
+                "Intan",
+                "Budi sends $ 43.00 to Intan"
+            ],
+            [
+                "Chandra",
+                "Gugun",
+                "Chandra sends $ 13.00 to Gugun"
+            ]
+        ],
+        "Block Number": 1,
+        "Nonce": "5534",
+        "Generator ID": "Miner_worker-1",
+        "Previous Hash": "7371f30caa457d5a0058d6ff8b255cee11c86d0988e48ec4f2509507a0b359d6",
+        "Timestamp": "Sat Sep 11 22:52:29 2021",
+        "Block Time Generation": {
+            "Using Pool Miner (seconds)": 0.49501819999999963,
+            "Using Solo Miner (seconds)": 0.014803099999999958
+        },
+        "Hash Value": "0001cdd15f0f4ca41614380e5834cef2af9693ee77ac9c37c92648bff6e90440"
+    },
+    "2": {
+        "Transactions": [
+            [
+                "Chandra",
+                "Intan",
+                "Chandra sends $ 7.00 to Intan"
+            ],
+            [
+                "Dudi",
+                "Agus",
+                "Dudi sends $ 15.00 to Agus"
+            ],
+            [
+                "Dudi",
+                "Endang",
+                "Dudi sends $ 48.00 to Endang"
+            ],
+            [
+                "Endang",
+                "Dudi",
+                "Endang sends $ 45.00 to Dudi"
+            ],
+            [
+                "Endang",
+                "Dudi",
+                "Endang sends $ 24.00 to Dudi"
+            ]
+        ],
+        "Block Number": 2,
+        "Nonce": "3047",
+        "Generator ID": "Miner_worker-1",
+        "Previous Hash": "0001cdd15f0f4ca41614380e5834cef2af9693ee77ac9c37c92648bff6e90440",
+        "Timestamp": "Sat Sep 11 22:52:30 2021",
+        "Block Time Generation": {
+            "Using Pool Miner (seconds)": 0.5442728000000008,
+            "Using Solo Miner (seconds)": 0.0648976999999995
+        },
+        "Hash Value": "000fecaa875b7150dd138da28eb24ec1812a43c54906b503b6e1d2542bfb9da1"
+    },
+    "3": {
+        "Transactions": [
+            [
+                "Fahmi",
+                "Chandra",
+                "Fahmi sends $ 19.00 to Chandra"
+            ],
+            [
+                "Fahmi",
+                "Chandra",
+                "Fahmi sends $ 29.00 to Chandra"
+            ],
+            [
+                "Gugun",
+                "Chandra",
+                "Gugun sends $ 0.00 to Chandra"
+            ],
+            [
+                "Gugun",
+                "Chandra",
+                "Gugun sends $ 12.00 to Chandra"
+            ],
+            [
+                "Husain",
+                "Kevin",
+                "Husain sends $ 5.00 to Kevin"
+            ]
+        ],
+        "Block Number": 3,
+        "Nonce": "4604",
+        "Generator ID": "Miner_worker-2",
+        "Previous Hash": "000fecaa875b7150dd138da28eb24ec1812a43c54906b503b6e1d2542bfb9da1",
+        "Timestamp": "Sat Sep 11 22:52:32 2021",
+        "Block Time Generation": {
+            "Using Pool Miner (seconds)": 0.6652013999999999,
+            "Using Solo Miner (seconds)": 0.07904130000000009
+        },
+        "Hash Value": "000052952a4afc6e8dd21e3597a7787122fbfb2b35184116791328cb4ccbe6d0"
+    },
+    "4": {
+        "Transactions": [
+            [
+                "Husain",
+                "Fahmi",
+                "Husain sends $ 49.00 to Fahmi"
+            ],
+            [
+                "Intan",
+                "Kevin",
+                "Intan sends $ 2.00 to Kevin"
+            ],
+            [
+                "Intan",
+                "Joni",
+                "Intan sends $ 34.00 to Joni"
+            ],
+            [
+                "Joni",
+                "Agus",
+                "Joni sends $ 13.00 to Agus"
+            ],
+            [
+                "Joni",
+                "Budi",
+                "Joni sends $ 8.00 to Budi"
+            ]
+        ],
+        "Block Number": 4,
+        "Nonce": "4000",
+        "Generator ID": "Miner_worker-5",
+        "Previous Hash": "000052952a4afc6e8dd21e3597a7787122fbfb2b35184116791328cb4ccbe6d0",
+        "Timestamp": "Sat Sep 11 22:52:33 2021",
+        "Block Time Generation": {
+            "Using Pool Miner (seconds)": 0.5944512,
+            "Using Solo Miner (seconds)": 0.07370300000000007
+        },
+        "Hash Value": "00080823876ed56539d8d110294a4d093ec6559cec7f96a17c03a335270dea30"
+    }
+}
