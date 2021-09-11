@@ -12,7 +12,7 @@ The users of this simulator can set the number of the user node, how many tasks/
 BCSimMP is developed using Python 3.8, and it is advised to be run on Linux or Windows OS.
 
 Make sure you download all the files.
-And create a temp folder on your active directory.
+And create a <b>temp</b> folder on your active directory.
 
 ```windows
 C:\Users\BCSimMP>python main.py
