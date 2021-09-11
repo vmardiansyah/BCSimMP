@@ -26,3 +26,5 @@ Please make sure to update tests as appropriate.
 ## Important Notes
 Published code should be considered copyrighted whether or not it includes an explicit copyright notice.
 This means that no one can distribute, reproduce, display, or create derivative works of the software without the permission of the copyright owner.
+
+:teacher: VMD :man_teacher:
